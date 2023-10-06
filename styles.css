@@ -1,0 +1,155 @@
+/* Add this CSS to center the footer with a black background */
+
+body {
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+
+
+/* Style the header and navigation bar */
+#header {
+    background-color: rgb(2, 43, 132);
+    color: white;;
+    color: white;
+    padding: 1rem 0;
+  }
+
+  h1 {
+    font-size: 2em;
+  } 
+  
+  h3 {
+    margin-right: 100px;
+    text-align: right;
+  }  
+
+  .container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  
+  #blog-title {
+    margin: 0;
+  }  
+ 
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 1rem;
+    justify-content: center;
+  }
+  
+  .blog-post {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .blog-post:hover {
+    transform: scale(1.02);
+  }
+  
+  .blog-post img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* For Blog Pages */
+  .blog-content {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  img{
+    margin-left: 100px;
+  }
+
+
+  .contact-left {
+    flex-basis: 35%;
+
+}
+
+.contact-right {
+    flex-basis: 60%;
+
+}
+
+.contact-left p {
+    margin-top: 10px;
+}
+
+.contact-left p i {
+    color: #51A4FB;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 10px;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 15px;
+    display: inline-block;
+    font-size: 30px;
+    transition: transform 0.5s;
+    margin-bottom: 50px;
+}
+
+.social-icons a:hover {
+    color: #51A4FB;
+    transform: scale(1.5);
+}
+
+.btn:hover {
+    background-color: #51A4FB;
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background-color: #51A4FB;
+}
+
+.contact-right form {
+    width: 100%;
+
+}
+
+
+
+  /* Center the footer with a black background */
+  footer {
+    background-color: rgb(2, 43, 132);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    flex-shrink: 0;
+  }
+  
+  .copyright {
+    margin: 0;
+  }
+  
+  
